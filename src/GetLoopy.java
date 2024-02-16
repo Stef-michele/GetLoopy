@@ -44,7 +44,43 @@ public class GetLoopy {
             }
             System.out.println();
         }
+         // #8 First Initial
+        // Upper part of 'S'
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 10; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= 5; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
 
-    }
+        // Middle part of 'S'
+        for (int i = 1; i <= 2; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(" ");
+            }
+            System.out.print("*");
+            for (int k = 1; k <= 8; k++) {
+                System.out.print(" ");
+            }
+            System.out.println("*");
+        }
 
-    }
+        // Lower part of 'S'
+        for (int i = 1; i <= 3; i++) {
+            for (int j = 1; j <= 10; j++) {
+                System.out.print(" ");
+            }
+            for (int k = 1; k <= 5; k++) {
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+            }
+        }
+
+
+
+
